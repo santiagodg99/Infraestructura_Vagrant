@@ -40,11 +40,17 @@ end
 ```
 Este código desplegará cinco máquinas virtuales que usarán la imagen base de **Debian Bookworm (64 bits)**, cada una con **256MB de RAM** y **1 núcleo de CPU**. A cada una de ellas se asignará una **IP estática** para evitar conflictos de DHCP.
 
-Guardamos los cambios en dicho archivo y finalmente ejecutamos el comando
+Guardamos los cambios en dicho archivo y ejecutamos el comando
 ```shell
 vagrant up
 ```
 para levantar nuestras máquinas.
+
+Una vez hecho esto haremos
+```shell
+vagrant status
+```
+para comprobar que las máquinas se han levantado correctamente y están activas.
 
 
 
